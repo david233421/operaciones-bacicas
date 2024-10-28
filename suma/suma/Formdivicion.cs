@@ -28,5 +28,16 @@ namespace suma
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void BtncalClick(object sender, EventArgs e)
+		{
+			string num1 = txtnum1.Text;
+			string num2 = txtnum2.Text;
+			int n1 = Int32.Parse(num1);
+			int n2 = Int32.Parse(num2);
+			int resul = n1 / n2;
+			string r = resul.ToString();
+			lbresultado.Text = r;
+		}
 	}
 }
