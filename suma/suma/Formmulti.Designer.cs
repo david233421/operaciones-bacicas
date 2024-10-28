@@ -36,16 +36,72 @@ namespace suma
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.txtnum1 = new System.Windows.Forms.TextBox();
+			this.txtnum2 = new System.Windows.Forms.TextBox();
+			this.label1 = new System.Windows.Forms.Label();
+			this.label2 = new System.Windows.Forms.Label();
+			this.btnmulti = new System.Windows.Forms.Button();
 			this.SuspendLayout();
+			// 
+			// txtnum1
+			// 
+			this.txtnum1.Location = new System.Drawing.Point(13, 44);
+			this.txtnum1.Name = "txtnum1";
+			this.txtnum1.Size = new System.Drawing.Size(100, 20);
+			this.txtnum1.TabIndex = 0;
+			// 
+			// txtnum2
+			// 
+			this.txtnum2.Location = new System.Drawing.Point(192, 43);
+			this.txtnum2.Name = "txtnum2";
+			this.txtnum2.Size = new System.Drawing.Size(100, 20);
+			this.txtnum2.TabIndex = 1;
+			// 
+			// label1
+			// 
+			this.label1.Location = new System.Drawing.Point(13, 71);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(100, 23);
+			this.label1.TabIndex = 2;
+			this.label1.Text = "numero1 ";
+			// 
+			// label2
+			// 
+			this.label2.Location = new System.Drawing.Point(192, 70);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(100, 23);
+			this.label2.TabIndex = 3;
+			this.label2.Text = "numero2";
+			// 
+			// btnmulti
+			// 
+			this.btnmulti.Location = new System.Drawing.Point(134, 173);
+			this.btnmulti.Name = "btnmulti";
+			this.btnmulti.Size = new System.Drawing.Size(75, 23);
+			this.btnmulti.TabIndex = 4;
+			this.btnmulti.Text = "numtipica";
+			this.btnmulti.UseVisualStyleBackColor = true;
+			this.btnmulti.Click += new System.EventHandler(this.BtnmultiClick);
 			// 
 			// mul
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.ClientSize = new System.Drawing.Size(339, 261);
+			this.Controls.Add(this.btnmulti);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.label1);
+			this.Controls.Add(this.txtnum2);
+			this.Controls.Add(this.txtnum1);
 			this.Name = "mul";
 			this.Text = "Formmulti";
 			this.ResumeLayout(false);
+			this.PerformLayout();
 		}
+		private System.Windows.Forms.Button btnmulti;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.TextBox txtnum2;
+		private System.Windows.Forms.TextBox txtnum1;
 	}
 }

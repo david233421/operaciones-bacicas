@@ -28,5 +28,14 @@ namespace suma
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		double num1,num2;
+		void BtnmultiClick(object sender, EventArgs e)
+		{
+			double multi;
+			num1 = Convert.ToDouble(txtnum1.Text);
+			num2 = Convert.ToDouble(txtnum2.Text);
+			multi = num1*num2;
+			MessageBox.Show("la respuesta es "+multi);
+		}
 	}
 }

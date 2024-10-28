@@ -22,3 +22,15 @@ C:\Users\CC2_PC40\Documents\SharpDevelop Projects\suma\suma\obj\Debug\suma.MainF
 C:\Users\CC2_PC40\Documents\SharpDevelop Projects\suma\suma\obj\Debug\suma.csproj.GenerateResource.Cache
 C:\Users\CC2_PC40\Documents\SharpDevelop Projects\suma\suma\obj\Debug\suma.exe
 C:\Users\CC2_PC40\Documents\SharpDevelop Projects\suma\suma\obj\Debug\suma.pdb
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\bin\Debug\suma.exe
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\bin\Debug\suma.pdb
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.csprojResolveAssemblyReference.cache
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.divi.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.mul.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.ra.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.res.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.suma.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.MainForm.resources
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.csproj.GenerateResource.Cache
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.exe
+C:\Users\CC2_PC38\operaciones-bacicas\suma\suma\obj\Debug\suma.pdb
